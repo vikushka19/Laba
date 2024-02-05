@@ -1,4 +1,4 @@
 *
 !.gitignore
-!main.cpp
-!CMakeLists.txt
+!main1.cpp
+!CMakeList.txt
