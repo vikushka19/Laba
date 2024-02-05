@@ -1,0 +1,3 @@
+C:/Users/vikag/Documents/GitHub/Laba/NewRes2/CMakeFiles/laba.dir
+C:/Users/vikag/Documents/GitHub/Laba/NewRes2/CMakeFiles/ALL_BUILD.dir
+C:/Users/vikag/Documents/GitHub/Laba/NewRes2/CMakeFiles/ZERO_CHECK.dir
