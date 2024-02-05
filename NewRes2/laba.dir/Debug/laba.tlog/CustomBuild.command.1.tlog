@@ -1,0 +1,10 @@
+^C:\USERS\VIKAG\DOCUMENTS\GITHUB\PIERWSZALABA\RES2\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vikag/Documents/GitHub/pierwszalaba/res2 -BC:/Users/vikag/Documents/GitHub/Laba/NewRes2 --check-stamp-file C:/Users/vikag/Documents/GitHub/Laba/NewRes2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

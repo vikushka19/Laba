@@ -1,0 +1,22 @@
+<<<<<<< HEAD
+cmake_minimum_required(VERSION 3.15)
+
+set(PROJECT_NAME laba1)
+project("${PROJECT_NAME}")
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_EXTENSIONS OFF)
+set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
+
+=======
+cmake_minimum_required(VERSION 3.15)
+
+set(PROJECT_NAME laba1)
+project("${PROJECT_NAME}")
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_EXTENSIONS OFF)
+set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
+
+>>>>>>> b5449613463d15130f7c6f24b1f8a33cb57bce8e
+add_executable("${PROJECT_NAME}" main.cpp)

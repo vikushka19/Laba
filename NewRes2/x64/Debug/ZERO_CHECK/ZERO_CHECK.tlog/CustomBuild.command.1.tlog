@@ -1,0 +1,10 @@
+^C:\USERS\VIKAG\DOCUMENTS\GITHUB\LABA\NEWRES2\CMAKEFILES\1A3EC2546E5CEF2B44784A9051105FDD\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/vikag/Documents/GitHub/pierwszalaba/res2 -BC:/Users/vikag/Documents/GitHub/Laba/NewRes2 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/vikag/Documents/GitHub/Laba/NewRes2/laba.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
