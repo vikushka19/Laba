@@ -1,0 +1,4 @@
+﻿  1 лаба.cpp
+C:\Users\vikag\source\repos\1 лаба\1 лаба.cpp(15,11): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\vikag\source\repos\1 лаба\1 лаба.cpp(23,10): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  1 лаба.vcxproj -> C:\Users\vikag\source\repos\1 лаба\x64\Debug\1 лаба.exe
