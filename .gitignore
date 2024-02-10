@@ -1,0 +1,7 @@
+*
+!меню*
+*.bmp
+!меню.bmp
+!.gitignore
+!main.cpp
+!CMakeLists.txt
